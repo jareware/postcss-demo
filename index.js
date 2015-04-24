@@ -1,13 +1,13 @@
 var postcss = require('postcss');
 
-module.exports = postcss.plugin('postcss-demo', function (opts) {
+module.exports = postcss.plugin('postcss-demo', function(opts) {
     opts = opts || {};
 
-    // Work with options here
+    // TODO: Work with options here
 
-    return function (css) {
+    return function(css) {
 
-        // Transform CSS AST here
+        // TODO: Transform CSS AST here
 
     };
 });
