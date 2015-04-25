@@ -7,7 +7,12 @@ module.exports = postcss.plugin('postcss-demo', function(opts) {
 
     return function(css) {
 
-        // TODO: Transform CSS AST here
+        // @see https://github.com/postcss/postcss/blob/master/API.md
+        css.eachInside(function(node) {
+            if (node.type === 'decl' && node.prop === 'color') {
+                node.value = (opts.coolestColor || 'green');
+            }
+        })
 
     };
 });

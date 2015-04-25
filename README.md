@@ -1,25 +1,17 @@
-# PostCSS Demo [![Build Status](https://travis-ci.org/jareware/postcss-demo.svg)](https://travis-ci.org/jareware/postcss-demo)
+# PostCSS Demo Plugin
 
 [PostCSS] plugin to demonstrate its awesomeness.
 
-[PostCSS]: https://github.com/postcss/postcss
-
-```css
-.foo {
-    /* Input example */
-}
-```
-
-```css
-.foo {
-  /* Output example */
-}
-```
+See [here](https://github.com/postcss/postcss-plugin-boilerplate) for an excellent starting point for writing your own plugins.
 
 ## Usage
 
+This plugin isn't meant to be useful in actual projects, but to demonstrate how easy it is to develop your own PostCSS plugins.
+
+To start an interactive demo:
+
 ```js
-postcss([ require('postcss-demo') ])
+$ npm run demo
 ```
 
-See [PostCSS] docs for examples for your environment.
+Then go ahead and start hacking on `index.js` and `demo/demo.scss` to see how your transform works!
