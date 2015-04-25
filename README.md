@@ -1,6 +1,6 @@
 # PostCSS Demo Plugin
 
-[PostCSS] plugin to demonstrate its awesomeness.
+[PostCSS](https://github.com/postcss/postcss) plugin to demonstrate its awesomeness.
 
 See [here](https://github.com/postcss/postcss-plugin-boilerplate) for an excellent starting point for writing your own plugins.
 
